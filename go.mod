@@ -5,7 +5,7 @@ go 1.22
 require (
 	github.com/prometheus/client_golang v1.11.1
 	github.com/prometheus/common v0.26.0
-	golang.org/x/net v0.32.0
+	golang.org/x/net v0.33.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
 
