@@ -1,11 +1,13 @@
 module github.com/mikeodr/tc4400_exporter
 
-go 1.22
+go 1.23.0
+
+toolchain go1.23.7
 
 require (
 	github.com/prometheus/client_golang v1.11.1
 	github.com/prometheus/common v0.26.0
-	golang.org/x/net v0.35.0
+	golang.org/x/net v0.37.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
 
@@ -20,6 +22,6 @@ require (
 	github.com/prometheus/client_model v0.2.0 // indirect
 	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/sirupsen/logrus v1.6.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 )
