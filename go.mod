@@ -1,6 +1,7 @@
 module github.com/mikeodr/tc4400_exporter
 
-go 1.22
+go 1.23.0
+
 toolchain go1.23.7
 
 require (
