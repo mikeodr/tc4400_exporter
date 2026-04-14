@@ -1,6 +1,6 @@
 module github.com/mikeodr/tc4400_exporter
 
-go 1.25.0
+go 1.26.2
 
 require (
 	github.com/prometheus/client_golang v1.11.1
